@@ -8,6 +8,7 @@ def bubble_sort(arr):
     for i in range(len(arr)-1): # access whole array
         for j in range(0, len(arr) - i - 1): # compare each element
 
+            #swap array position
             if arr[j] > arr[j+1]:
                 temp = arr[j]
                 arr[j] = arr[j+1]
