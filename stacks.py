@@ -44,6 +44,7 @@ class Stack:
                 print(current_node.val)
                 current_node = current_node.next
 
+#TESTS
 stk = Stack()
 
 stk.push(1)
