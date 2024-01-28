@@ -1,4 +1,5 @@
 # trying to implement a simple tree traversal
+# BFS going down the height of the tree then back up (breadth)
 # inorder, preorder, postorder
 
 class Node:
